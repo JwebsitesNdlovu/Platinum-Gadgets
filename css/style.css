@@ -697,6 +697,25 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   }
 }
 
+@media (min-width: 992px) {
+  #mobileview {
+    display: none !important;
+  }
+}
+@media (max-width: 991px) {
+  #mobileview {
+    display: block;
+    text-align: center;
+    margin-top:-90px;
+    margin-bottom: 1rem;
+  }
+  #mobileview img {
+    width: 300px;      /* or whatever size you want */
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+  }
+}
 
 .work, .product {
   background-size: cover;
